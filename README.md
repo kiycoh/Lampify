@@ -27,7 +27,7 @@ Lampify is a computer science UNI project: an interactive simulation application
     ```
 
 2. Required libraries:
-- [BreezyPythonGUI by Ken Lambert](https://lambertk.academic.wlu.edu/breezypythongui/installing-breezingpythongui/) 
+- [BreezyPythonGUI by Ken Lambert]([https://lambertk.academic.wlu.edu/breezypythongui/installing-breezingpythongui/](https://lambertk.academic.wlu.edu/breezypythongui/downloads-and-legal-matters/)) 
 
 3. Run the application:
     ```bash
