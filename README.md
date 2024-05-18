@@ -22,7 +22,7 @@ Lampify is a computer science UNI project: an interactive simulation application
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/lampify.git
+    git clone https://github.com/kiycoh/Lampify.git
     cd lampify
     ```
 
