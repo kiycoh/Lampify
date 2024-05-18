@@ -28,6 +28,7 @@ https://lambertk.academic.wlu.edu/breezypythongui/installing-breezingpythongui
     ```
 
 ## Usage
+![LampifyV2 4](https://github.com/kiycoh/Lampify/assets/152720918/047e96dc-2990-42c7-af53-5f5d3ac36ca1)
 
 - **Randomize**: Populate the grid with a random configuration of lit and unlit bulbs.
 - **Auto Run**: Start the automatic evolution of the grid.
@@ -40,12 +41,14 @@ https://lambertk.academic.wlu.edu/breezypythongui/installing-breezingpythongui
 ## Classes and Methods
 
 ### Lamp
+![EsempioLamp](https://github.com/kiycoh/Lampify/assets/152720918/5c6f12a8-bbd5-4189-8d88-162dcc8c8950)
 
 - `__init__(self, state=False)`: Initialize the lamp with an off state.
 - `toggle_state(self)`: Toggle the state of the lamp.
 - `get_state(self)`: Return the current state of the lamp.
 
 ### GridLogic
+![EsempioGridLogic](https://github.com/kiycoh/Lampify/assets/152720918/4fea5a60-4df8-41b3-a75a-0bf4340426a1)
 
 - `__init__(self, row=50, col=50)`: Initialize a grid of lamps.
 - `get_neighbours(self, i, j)`: Count the number of lit neighboring bulbs.
@@ -57,6 +60,7 @@ https://lambertk.academic.wlu.edu/breezypythongui/installing-breezingpythongui
 - `get_grid(self)`: Print the grid to the terminal (for debugging).
 
 ### GridCanvas
+![EsempioGridCanvas](https://github.com/kiycoh/Lampify/assets/152720918/d7e4b6f4-bd94-4b85-8daf-ad125ccca1aa)
 
 - `__init__(self, parent, cell_size=10, rows=50, cols=50)`: Initialize the canvas and draw the grid.
 - `draw_grid(self)`: Draw the grid on the canvas.
@@ -74,6 +78,7 @@ https://lambertk.academic.wlu.edu/breezypythongui/installing-breezingpythongui
 - `mouseDragged(self, event)`: Handle mouse drag events.
 
 ### Lampify
+![EsempioLampify](https://github.com/kiycoh/Lampify/assets/152720918/089cf3bd-d791-4672-b85b-f4dbb230550a)
 
 - `__init__(self, cell_size=10, rowc=50, colc=50)`: Initialize the main GUI window.
 - `create_widgets(self)`: Create and place widgets on the GUI.
